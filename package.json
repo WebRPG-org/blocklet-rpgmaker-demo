@@ -1,13 +1,12 @@
 {
-  "name": "rpgmaker-demo",
-  "version": "1.0.12",
-  "repository": "git@github.com:blocklet/rpgmaker-demo.git",
-  "author": "Arcblock",
-  "license": "MIT",
-  "scripts": {
-    "clean": "rm -rf .blocklet",
-    "bundle": "npm run clean && blocklet bundle --create-release",
-    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle",
-    "release": "npm run clean && npm run bundle"
-  }
+    "name": "",
+    "main": "index.html",
+    "js-flags": "--expose-gc",
+    "window": {
+        "title": "",
+        "toolbar": false,
+        "width": 816,
+        "height": 624,
+        "icon": "icon/icon.png"
+    }
 }
